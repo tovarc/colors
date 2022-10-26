@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block content %}
+
+<h1 class="text-2xl mb-4">Hello! {{user.user_metadata.name}}</h1>
+<p class="mb-4">Choose or edit your favorite color:</p>
+
+<div class="flex items-center">
+  <input type="color" id="user-color" class="cursor-pointer mr-8" />
+
+  <button
+    onclick="changeUserColor()"
+    type="button"
+    class="py-2 px-3 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+  >
+    Update My Color
+  </button>
+</div>
+
+{% endblock %}

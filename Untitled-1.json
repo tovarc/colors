@@ -1,0 +1,76 @@
+{
+  "app_metadata": { "provider": "google", "providers": ["github", "google"] },
+  "aud": "authenticated",
+  "created_at": "2022-10-25T19:49:38.434972+00:00",
+  "id": "b3c92cf4-a694-4fba-9fd2-57f5193db614",
+  "user_metadata": {
+    "avatar_url": "https://lh3.googleusercontent.com/a/ALm5wu1aF96UdLM38rv8riEiuERjdzZ_WwY3_sRqSfYB=s96-c",
+    "email": "josetovarc2@gmail.com",
+    "email_verified": true,
+    "full_name": "Jose Tovar",
+    "iss": "https://www.googleapis.com/userinfo/v2/me",
+    "name": "Jose Tovar",
+    "picture": "https://lh3.googleusercontent.com/a/ALm5wu1aF96UdLM38rv8riEiuERjdzZ_WwY3_sRqSfYB=s96-c",
+    "preferred_username": "tovarc",
+    "provider_id": "109420519822856626732",
+    "sub": "109420519822856626732",
+    "user_name": "tovarc"
+  },
+  "identities": [
+    {
+      "id": "40373603",
+      "user_id": "b3c92cf4-a694-4fba-9fd2-57f5193db614",
+      "provider": "github",
+      "created_at": "2022-10-25T19:54:18.899301+00:00",
+      "updated_at": "2022-10-26T03:52:13.667000+00:00",
+      "identity_data": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/40373603?v=4",
+        "email": "josetovarc2@gmail.com",
+        "email_verified": true,
+        "full_name": "Jose Tovar",
+        "iss": "https://api.github.com",
+        "name": "Jose Tovar",
+        "preferred_username": "tovarc",
+        "provider_id": "40373603",
+        "sub": "40373603",
+        "user_name": "tovarc"
+      },
+      "last_sign_in_at": "2022-10-25T19:54:18.899261+00:00"
+    },
+    {
+      "id": "109420519822856626732",
+      "user_id": "b3c92cf4-a694-4fba-9fd2-57f5193db614",
+      "provider": "google",
+      "created_at": "2022-10-25T19:49:38.439552+00:00",
+      "updated_at": "2022-10-26T03:54:28.597063+00:00",
+      "identity_data": {
+        "avatar_url": "https://lh3.googleusercontent.com/a/ALm5wu1aF96UdLM38rv8riEiuERjdzZ_WwY3_sRqSfYB=s96-c",
+        "email": "josetovarc2@gmail.com",
+        "email_verified": true,
+        "full_name": "Jose Tovar",
+        "iss": "https://www.googleapis.com/userinfo/v2/me",
+        "name": "Jose Tovar",
+        "picture": "https://lh3.googleusercontent.com/a/ALm5wu1aF96UdLM38rv8riEiuERjdzZ_WwY3_sRqSfYB=s96-c",
+        "provider_id": "109420519822856626732",
+        "sub": "109420519822856626732"
+      },
+      "last_sign_in_at": "2022-10-25T19:49:38.439518+00:00"
+    }
+  ],
+  "confirmation_sent_at": null,
+  "action_link": null,
+  "last_sign_in_at": "2022-10-26T03:54:28.599951+00:00",
+  "phone": "",
+  "phone_confirmed_at": null,
+  "recovery_sent_at": null,
+  "role": "authenticated",
+  "updated_at": "2022-10-26T03:54:28.601590+00:00",
+  "email_confirmed_at": "2022-10-25T19:49:38.442066+00:00",
+  "confirmed_at": "2022-10-25T19:49:38.442066+00:00",
+  "invited_at": null,
+  "email": "josetovarc2@gmail.com",
+  "new_email": null,
+  "email_change_sent_at": null,
+  "new_phone": null,
+  "phone_change_sent_at": null
+}

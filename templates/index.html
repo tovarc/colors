@@ -1,0 +1,29 @@
+{% extends "base.html" %} {% block content %}
+<div class="max-w-sm mx-auto overflow-x-auto relative shadow-md sm:rounded-lg">
+  <table class="w-full text-sm text-left text-gray-500">
+    <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+      <tr>
+        <th scope="col" class="py-3 px-6">Color</th>
+        <th scope="col" class="py-3 px-6"># Users</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for user in users %}
+      <tr class="bg-white border-b hover:bg-gray-50">
+        <th
+          scope="row"
+          class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
+        >
+          Blue
+        </th>
+        <td class="py-4 px-6">273</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  {% for color in colors %}
+  <span>{{color.data}}</span>
+  {% endfor %}
+</div>
+{% endblock %}
