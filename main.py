@@ -49,7 +49,7 @@ async def login(request: Request):
 @app.get('/auth-login')
 async def auth_login(provider: str):
     google_auth_url = supabase.auth.sign_in(
-        provider=provider, redirect_to='http://localhost:8000/token')
+        provider=provider, redirect_to='https://supabase-colors.herokuapp.com/token')
 
     return RedirectResponse(google_auth_url, status_code=302)
 
